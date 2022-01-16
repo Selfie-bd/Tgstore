@@ -16,17 +16,7 @@ async def help_cb(c, m):
     await m.answer()
 
     # help text
-    help_text = """**Yᴏᴜ ɴᴇᴇᴅ Hᴇʟᴘ?? 🧐**
-
-★ Jᴜsᴛ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ғɪʟᴇs ɪ ᴡɪʟʟ sᴛᴏʀᴇ ғɪʟᴇ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ sʜᴀʀᴇ ᴀʙʟᴇ ʟɪɴᴋ
-
-**Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ᴄʜᴀɴɴᴇʟ ᴛᴏᴏ 😉**
-
-★ Mᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ᴇᴅɪᴛ ᴘᴇʀᴍɪssɪᴏɴ. Tʜᴀᴛs ᴇɴᴏᴜɢʜ ɴᴏᴡ ᴄᴏɴᴛɪɴᴜᴇ ᴜᴘʟᴏᴀᴅɪɴɢ ғɪʟᴇs ɪɴ ᴄʜᴀɴɴᴇʟ ɪ ᴡɪʟʟ ᴇᴅɪᴛ ᴀʟʟ ᴘᴏsᴛs ᴀɴᴅ ᴀᴅᴅ sʜᴀʀᴇ ᴀʙʟᴇ ʟɪɴᴋ ᴜʀʟ ʙᴜᴛᴛᴏɴs
-
-**Hᴏᴡ ᴛᴏ ᴇɴᴀʙʟᴇ ᴜᴘʟᴏᴀᴅᴇʀ ᴅᴇᴛᴀɪʟs ɪɴ ᴄᴀᴘᴛɪᴏɴ**
-
-★ Usᴇ /mode ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄʜᴀɴɢᴇ ᴀɴᴅ ᴀʟsᴏ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ`/mode channel_id` ᴛᴏ ᴄᴏɴᴛʀᴏʟ ᴄᴀᴘᴛɪᴏɴ ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴍsɢ."""
+    help_text = """**Yᴏᴜ ɴᴇᴇᴅ Hᴇʟᴘ?? 🧐**"""
 
     # creating buttons
     buttons = [[
@@ -71,13 +61,13 @@ async def about_cb(c, m):
 │
 ├**🔸Vᴇʀꜱɪᴏɴ :** `3.0.1`
 │
-├**🔹Sᴏᴜʀᴄᴇ :** [Cʟɪᴄᴋ Hᴇʀᴇ 🥰](https://github.com/avipatilpro/FileStoreBot)
+├**🔹Sᴏᴜʀᴄᴇ :** [Cʟɪᴄᴋ Hᴇʀᴇ 🥰](https://github.com/)
 │
-├**🔸GitHub :** [Fᴏʟʟᴏᴡ](https://GitHub.com/avipatilpro)
+├**🔸GitHub :** [Fᴏʟʟᴏᴡ](https://GitHub.com/)
 │
-├**🔹Dᴇᴠᴇʟᴏᴘᴇʀ :** [Aᴠɪsʜᴋᴀʀ Pᴀᴛɪʟ](https://telegram.me/Avishkarpatil)
+├**🔹Dᴇᴠᴇʟᴏᴘᴇʀ :** [Aᴠɪsʜᴋᴀʀ Pᴀᴛɪʟ](https://telegram.me/shreevish)
 │
-├**🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ :** [[ 12-ᴊᴜʟʏ-21 ]](https://telegram.me/AvishkarPatil)
+├**🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ :** [[ 𝟷𝟼-ᴊᴀɴ-𝟸𝟸 ]](https://telegram.me/shreevish)
 │
 ╰─────────[ 😎 ]────────⍟
 """  
