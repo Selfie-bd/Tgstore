@@ -23,18 +23,14 @@ async def start(c, m, cb=False):
         send_msg = await m.reply_text("**Pʀᴏᴄᴇssɪɴɢ...**", quote=True)
 
     owner = await c.get_users(int(OWNER_ID))
-    owner_username = owner.username if owner.username else 'AvishkarPatil'
+    owner_username = owner.username if owner.username else '꧁★SHREE★꧂'
 
     # start text
     text = f"""**Hᴇʏ!** {m.from_user.mention(style='md')}
     
 🤗 **I'm FileStoreBot **
 
-‣ Yᴏᴜ ᴄᴀɴ sᴛᴏʀᴇ ʏᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Mᴇᴅɪᴀ ғᴏʀ ᴘᴇʀᴍᴀɴᴇɴᴛ Lɪɴᴋ! ᴀɴᴅ Sʜᴀʀᴇ Aɴʏᴡʜᴇʀᴇ
-
-‣ Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ ᴀɴᴅ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Usɪɴɢ ᴍᴇ
-
-__🚸 Pᴏʀɴ Cᴏɴᴛᴇɴᴛ Nᴏᴛ Aʟʟᴏᴡᴇᴅ Oɴ Tʜᴇ Bᴏᴛ__
+‣ This Bot can only be Accessed By @allmovierockerssdiscussion
 
 **💞 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ:** {owner.mention(style='md')}
 """
