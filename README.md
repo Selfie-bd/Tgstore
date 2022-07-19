@@ -41,7 +41,7 @@ https://img.shields.io/static/v1?label=Knotters&message=Project&color=1657ce&lin
 ## Heroky Deploy :
 _Press the button Deploy to heroku and give the values for the config vars. 👇_
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/https://github.com/Selfie-bd/TG-File-Store-V5)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Selfie-bd/TG-File-Store-V5)
 
 
 ## VPS Deploy : 
