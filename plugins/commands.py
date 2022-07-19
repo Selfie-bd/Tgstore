@@ -30,7 +30,7 @@ async def start(c, m, cb=False):
     
 🤗 **I'm FileStoreBot **
 
-‣ This Bot can only be Accessed By @allmovierockerssdiscussion
+‣ This Bot can only be Accessed By @HdFlimZ
 
 **💞 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ:** {owner.mention(style='md')}
 """
