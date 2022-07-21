@@ -93,7 +93,7 @@ async def start(c, m, cb=False):
                 caption += f"**👤 Cʜᴀɴɴᴇʟ Iᴅ:** __{channel.id}__\n\n"
             else:
                 user = await c.get_users(int(chat_id)) 
-                caption += "\n\n\n**--Uᴘʟᴏᴀᴅᴇʀ Dᴇᴛᴀɪʟs:--**\n\n"
+                caption += "\n\n\n**--🍁Uᴘʟᴏᴀᴅᴇᴅ Bʏ :--**\n\n"
                 caption += f"**🖋 Usᴇʀ Nᴀᴍᴇ:** @{user.username}\n\n" if user.username else ""
 
 
