@@ -87,15 +87,11 @@ async def start(c, m, cb=False):
         if as_uploadername:
             if chat_id.startswith('-100'):
                 channel = await c.get_chat(int(chat_id))
-                caption += "\n\n\n**--Uᴘʟᴏᴀᴅᴇʀ Dᴇᴛᴀɪʟs:--**\n\n"
+                caption += "\n\n\n**--🍁Uᴘʟᴏᴀᴅᴇᴅ Bʏ :--**\n\n"
                 caption += f"**📢 Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** __{channel.title}__\n\n"
                 caption += f"**🗣 Usᴇʀ Nᴀᴍᴇ:** @{channel.username}\n\n" if channel.username else ""
                 caption += f"**👤 Cʜᴀɴɴᴇʟ Iᴅ:** __{channel.id}__\n\n"
-            else:
-                user = await c.get_users(int(chat_id)) 
-                caption += "\n\n\n**--🍁Uᴘʟᴏᴀᴅᴇᴅ Bʏ :--**\n\n"
-                caption += f"**🖋 Usᴇʀ Nᴀᴍᴇ:** @{user.username}\n\n" if user.username else ""
-
+            
 
         await send_msg.delete()
         await msg.copy(m.from_user.id, caption=caption)
